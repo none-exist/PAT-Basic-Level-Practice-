@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<stdlib.h>
+main()
+{
+int i,s;
+scanf("%d",&s);
+for(i=0;s!=1;i++)
+{	if(s%2==0)
+		s=s/2;
+	else
+		s=(3*s+1)/2;
+	}
+printf("%d",i);
+}
